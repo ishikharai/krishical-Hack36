@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eddc5e73;
+}
+
+.payment-navigation{
+    display: flex;
+    border-bottom: 2px solid grey;
+    box-shadow: 0px 0px 5px gray;
+    background-color: #404a3d;
+    color: #eddd5e;
+}
+
+.navigation-section{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
+    padding-left: 2%;
+}
+
+.back-arrow{
+    margin: auto 10%;
+}
+
+.back-arrow-btn{
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+}
+
+.arrow-link{
+    text-decoration: none;
+    color: #eddd5e;
+}
+
+.payment-head-text{
+    font-size: 2.5rem;
+    padding-left: 30%;
+    line-height: 1.5rem;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Barlow', sans-serif;
+}
+
+.payment-page{
+    margin: 1% 2% 2%;
+}
+
+.payment-detail{
+    margin: 3% auto;
+}
+
+
+.method-title{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+    margin: 10px;
+}
+
+.payment-container{
+    width: 95%;
+    margin: auto;
+}
+
+.payment-method-card{
+    border: 3px solid #404a3d;
+    box-shadow: 0px 0px 10px #eddd5e;
+    background-color: #5b8c51;
+}
+
+.payment-option{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5%;
+}
+
+.method{
+    padding: 5px 0;
+    display: flex;
+}
+
+.method label{
+    font-size: 1.3rem;
+}
+
+.method-radio{
+    margin: 2% 5%;
+    transition: ease-in;
+}
+
+.method-radio:checked + *{
+    color: #eddd5e;
+    font-weight: 700;
+}
+
+.purchase-detail{
+    margin: 3% auto;
+}
+
+.purchase-container{
+    width: 95%;
+    margin: auto;
+}
+
+.purchase-method-card{
+    border: 3px solid #404a3d;
+    box-shadow: 0px 0px 10px #eddd5e;
+    background-color: #5b8c51;
+}
+
+.product-img{
+    text-align: center;
+    width: 100%;
+}
+
+.product-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-breif{
+    padding: 30px 0 15px;
+}
+
+.payment-breif{
+    padding: 15px 0 30px;
+}
+
+.product-title{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #eddd5e;
+}
+
+.product-subhead{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.amount-title{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.amount-value{
+    font-size: 1.3rem;
+    color: #eddd5e;
+}
+
+.total-pay{
+    padding: 5px 0 13px;
+    text-align: end;
+    font-weight: 700;
+}
+
+.total-amount{
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0px 0 13px;
+}
+
+.address-card{
+    margin: 3% auto;
+    
+}
+
+.user-detail{
+    margin: auto;
+    width: 95%;
+}
+
+.user-detail-card{
+    border: 3px solid #404a3d;
+    box-shadow: 0px 0px 50px #eddd5e;
+    background-color: #5b8c51;
+}
+
+.user-content{
+    padding: 10px 15px;
+}
+
+#user-name{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #eddd5e;
+}
+
+.address-column{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+.address{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.change-address{
+    border-color: #5b8c51;
+    color: #404a3d;
+    background-color: #eddd5e;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.continue-section{
+    display: flex;
+    background-color: #404a3d;
+    color: #eddd5e;
+}
+
+.final-check{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.amount-check{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.amount-detail{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    color: #eddd5e;
+}
+
+.continue-btn{
+    align-self: center;
+    position: absolute;
+    right: 10%;
+}
+
+.continue-button{
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border: 2px solid #5b8c51;
+    /* box-shadow: 0px 0px 15px #eddd5e; */
+    background-color: #eddc5ee0;
+    color: #404a3d;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+    .product-detail{
+        text-align: center;
+    }
+
+    .product-breif{
+        margin-top: 2%;
+    }
+
+    .total-pay{
+        text-align: center;
+    }
+    
+    .total-amount{
+        text-align: center;
+    }
+}

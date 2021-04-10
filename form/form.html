@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="jquery.nice-number.css" rel="stylesheet">
+    <link rel="stylesheet" href="./st.css">
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="jquery.nice-number.js"></script>
+    <script>
+        $(function(){
+            $('input[type="number"]').niceNumber();
+        });
+    </script>
+</head>
+<body>
+
+    <div class="page-wrapper">
+        <div class="site-header__header-one-wrap">
+    
+            <header class="main-nav__header-one">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 navigation-panel">
+                            <li class="nav-item special">
+                                <a class="nav-link" aria-current="page" href="#"><i class="fas fa-search fa-2x"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="../index.html #farmservicesweprovide">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="../product/product.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="">Contacts</a>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+
+            </header>
+        </div>
+    </div>
+
+    <section class="form-body">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-container">
+                    <div class="left-header">
+                        <h1 class="left-heading">
+                            Thanks for your interest in krishical!
+                        </h1>
+                    </div>
+                    <div class="left-content">
+                        <p class="left-para">
+                            <span style="font-weight: 600;">PROVIDE YOU THE HIGHEST QUALITY PRODUCTS THAT MEETS YOUR EXPECTATION.</span> <br><br>
+                            We will provide a platform such that a person who has farming equipment that is not in use can rent, and another person who is in need of it can buy it as in rent for a specific number of days.
+                        </p>
+                    </div>
+                    <div class="left-image">
+                        <img src="./assets/images/farmer-img.png" class="left-img" alt="farmer-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-container">
+                    <div class="agri-form">
+                        <form action="/">
+                            <div class="row final-row">
+                                <div class="col field-name">
+                                    <label for="fname" class="form-label required">First Name </label>
+                                </div>
+                                <div class="col field-name">
+                                    <label for="lname" class="form-label required">Last Name </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col field-input">
+                                  <input type="text" class="form-control" placeholder="eg: John" id="fname" required>
+                                </div>
+                                <div class="col field-input">
+                                  <input type="text" class="form-control" placeholder="eg: Doe" id="lname" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 final-row">
+                                <label for="exampleInputEmail1" class="form-label required">Email address </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="eg: john_doe@gmail.com" required>
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col">
+                                    <label class="form-label custom-form-label required" for="gender">Gender </label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="option1">
+                                        <label class="form-check-label" for="gender">Female</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="gender" value="option2">
+                                        <label class="form-check-label" for="gender">Male</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col field-input">
+                                    <label for="date-of-birth" class="form-label required custom-form-label">Date of Birth </label>
+                                    <input type="date" class="form-control upload-input" id="date-of-birth" required>
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label required">Address Line 1 </label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                                </div>
+                                <div class="col-12 final-row">
+                                    <label for="inputAddress2" class="form-label">Address Line 2 </label>
+                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor (optional)">
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col-md-4">
+                                    <label for="inputCity" class="form-label required">City</label>
+                                    <input type="text" class="form-control" id="inputCity" required placeholder="eg: Ajmer">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label required">State</label>
+                                    <input type="text" class="form-control" id="inputState" required placeholder="eg: Rajasthan">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputZip" class="form-label required">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip" required placeholder="eg: 305001">
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col field-name">
+                                    <label for="phoneNumber" class="form-label required">Phone Number </label>
+                                </div>
+                                <div class="col field-name">
+                                    <label for="vehicalNumber" class="form-label required">Vehical Number </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col field-input">
+                                  <input type="number" class="form-control" placeholder="eg: +91XXXXXXXXXX" id="phoneNumber" required>
+                                </div>
+                                <div class="col field-input">
+                                  <input type="text" class="form-control" placeholder="eg: RJXX-YY-ZZZZ" id="vehicalNumber" required>
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col field-input">
+                                    <label for="vehicalType" class="form-label required custom-form-label">Vehical Type </label>
+                                    <input type="text" class="form-control upload-input" id="vehicalType" required placeholder="eg: crop-harvester">
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <div class="col field-input">
+                                    <label for="vehicalDocument" class="form-label required">Upload Vehical Document(in pdf) </label>
+                                    <input type="file" accept=".pdf" class="form-control upload-input" required id="vehicalDocument">
+                                </div>
+                            </div>
+                            <div class="row final-row">
+                                <input type="submit" class="form-submit-btn">
+                            </div>
+                            <div class="row finally-row">
+                                <p>Our team will contact you soon!!</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="site-footer_farm_image">
+            <img src="assets/images/site-footer-farm.png" alt="Farm Image">
+        </div>        
+            <div class="container">
+                <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                    <h2>About</h2>
+                    <p>This project of a web app is for those farmers who can't afford to have farming equipment, they can rent it from here. We aim to build a platform where farmers can buy or rent out farming equipment at reasonable pricing.</p>
+                </div>
+                <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                    <h2>Explore</h2>
+                    <p>Home</p>
+                    <p>Shop</p>
+                    <p>Services</p>
+                    <p>Contact Us</p>
+                    <div class="form-element">
+                        <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                    <h2>Contact Us</h2>
+                    <p>SRM Institute of Science & Technology Ramapuram, </p>
+                    <p>Chennai, Tamil Nadu, India</p>
+                    <p style="color:#ecdc5e;">service@krishical.com</p>
+                    <p style="color:#ecdc5e;">999 888 777</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        <div class="move-up">
+            <a href="#"><span><i class="fas fa-arrow-circle-up fa-2x"></i></span></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

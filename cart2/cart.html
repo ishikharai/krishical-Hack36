@@ -1,0 +1,230 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="./cart.css">
+        <link rel="stylesheet" href="./responsive.css">
+       
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+        <link href="jquery.nice-number.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="jquery.nice-number.js"></script>
+        <script type="text/javascript">
+        $(function(){
+
+$('input[type="number"]').niceNumber();
+
+});
+        </script>
+    </head>
+
+    <body>
+
+        <div class="preloader">
+            <img src="assets/images/loader.png" class="preloader__image" alt="">
+        </div><!-- /.preloader -->
+    
+        <div class="page-wrapper">
+    
+    
+            <div class="site-header__header-one-wrap">
+    
+                <div class="topbar-one">
+                    <div class="topbar_bg" style="background-image: url(./images/header-bg.png)"></div>
+                    <div class="container">
+                        <div class="topbar-one__left">
+                            <a href=""><span><i class="fas fa-envelope-open-text"></i></span>service@krishical.com</a>
+                            <a href=""><span><i class="fas fa-phone-volume"></i></span>999 888 7777</a>
+                        </div>
+                        <div class="topbar-one__middle">
+                            <a href="index.html" class="main-nav__logo">
+                                <img src="./images/logo(150x150).png" class="main-logo" alt="Awesome Image" />
+                            </a>
+                        </div>
+                        <div class="topbar-one__right">
+                            <div class="topbar-one__social">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <header class="main-nav__header-one">
+                    <nav class="header-navigation stricky">
+                        <div class="container clearfix">
+                        
+                            <div class="main-nav__left">
+                                <a href="#" class="main-nav__search search-popup__toggler"><i class="fas fa-search"></i></a>
+                                <a href="#" class="side-menu__toggler">
+                                    <!-- <i class="fa fa-bars"></i> -->
+                                </a>
+                            </div>
+                            <div class="main-nav__main-navigation">
+                                <ul class=" main-nav__navigation-box">
+                                    <li class="dropdown">
+                                        <a href="../index.html">Home</a>
+                                       
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="../index.html #farmservicesweprovide">Services</a>
+                                        
+                                    </li>
+                                   
+                                    <li class="dropdown current">
+                                        <a href="../product/product.html">Shop</a>
+                                        <ul>
+                                            <li><a href="../product/product.html">Products</a></li>
+                                            
+                                        </ul><!-- /.sub-menu -->
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="../form/form.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        <section class="cart">
+            <div class="header">
+                <div id="background">
+                    <img src="./images/photo-1550121576-64a169dfe76d.jpg" alt="">
+                </div>
+                <div id="heading">
+                    <h1>CART</h1>
+                </div>
+                <div id="midnav">
+                    <ul>
+                        <li><a href="../index.html" id="homebtn">Home</a></li>
+                        <li><a href="../product/product.html" id="shopbtn">Shop</a></li>
+                        <li><a href="cart.html" id="cartbtn">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cartnavbar">
+                <div id="leftcart">
+                    <ul>
+                        <li>Item</li>
+                    </ul>
+                </div>
+                <div id="middlecart">
+                    <ul>
+                        <li id="middlecart1">Quantity</li>
+                        <li id="middlecart2">Price</li>
+                    </ul>
+                </div>
+                <div id="rightcart">
+                    <ul>
+                        <li>Remove</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="carthr">
+            <div class="contentrow1">
+                <div id="itemleft1">
+                    <ul>
+                        <li><img src="./images/pexels-photo-7440497.jpeg" id="item1img1" alt=""></li>
+                        <li id="item1name1">Tractor</li>
+                    </ul>
+                </div>
+                <div id="qpmiddle1">
+                    <ul>
+                        <li class="increment1"><input type="number" value="1"></li>
+                        <li id="price1">₹1499/-</li>
+                    </ul>
+                </div>
+                <div id="removeright1">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="contentrow2">
+                    <div id="itemleft2">
+                        <ul>
+                            <li><img src="./images/pexels-photo-750830.jpeg" id="item2img2" alt=""></li>
+                            <li id="item2name2">Sprinkler</li>
+                        </ul>
+                    </div>
+                    <div id="qpmiddle2">
+                        <ul>
+                            <li class="increment2"><input type="number" value="1"></li>
+                            <li id="price2">₹599/-</li>
+                        </ul>
+                    </div>
+                    <div id="removeright2">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="coupon">
+                    <input type="text" name="couponcode" id="couponcode" placeholder="Enter Coupon Code"></input>
+                    <button id="couponbtn"><a href="#">Apply Coupon</a></button>
+                </div>
+                <div class="carttotal">
+                    <table>
+                        <tr>
+                            <th>Subtotal</th>
+                            <td>₹2098</td>
+                        </tr>
+                        <tr>
+                            <th>Shipping Cost</th>
+                            <td>₹20</td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <td>₹2118</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="cartend">
+                    <button id="updatebtn"><a href="#">Update</a></button>
+                    <button id="checkoutbtn"><a href="../Payment/payment.html">Checkout</a></button>
+                </div>
+                <hr>
+        </section>
+
+        <footer class="cartfooter">
+            <img src="./images/site-footer-farm.png">
+            <div id="footerhead">
+                <h1 id="footerabout">About</h1>
+                <p id="aboutpara">
+                    This project of a web app is for those farmers who can't afford to have farming equipment, they can
+                    rent it from here.
+                    We aim to build a platform where farmers can buy or rent out farming equipment at reasonable
+                    pricing.
+                </p>
+                <input type="email" name="footermail" id="footermail" placeholder="Email Address">
+                <h1 id="footerexplore">Explore</h1>
+                <ul id="explorelist">
+                    <li id="explorehome">Home</li>
+                    <li id="exploreshop">Shop</li>
+                    <li id="exploreservices">Services</li>
+                    <li id="explorecontactus">Contact Us</li>
+                </ul>
+                <h1 id="footercontact">Contact</h1>
+                <ul id="exploreaddress">
+                    <li id="expaddress1">SRM Institute of Science & Technology</li>
+                    <li id="expaddress2">Ramapuram, Chennai, Tamil Nadu, India</li>
+                </ul>
+                <ul id="expmailphone">
+                    <li id="expmail">service@krishical.com</li>
+                    <li id="expphone">9999 999 999</li>
+                </ul>
+                <ul id="exploresocial">
+                    <li id="expfacebook"><i class="fab fa-facebook"></i></li>
+                    <li id="exptwitter"><i class="fab fa-twitter-square"></i></li>
+                    <li id="expinstagram"><i class="fab fa-instagram"></i></li>
+                    <li id="expdribble"><i class="fab fa-linkedin"></i></i></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+
+</html>

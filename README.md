@@ -26,7 +26,10 @@ This project of a web app is for those farmers who can't afford to have farming 
 
 # Demonstration Video
 
-https://youtu.be/lZ1L7Z5iyQo
+
+https://user-images.githubusercontent.com/62173096/114613562-2519c880-9cc1-11eb-983e-e3db8e39e407.mp4
+
+
 
 # Hackathon
 
